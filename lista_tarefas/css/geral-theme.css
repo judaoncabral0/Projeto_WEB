@@ -1,0 +1,165 @@
+
+body{
+	/*-webkit-linear-gradient(left, rgba(73, 107, 66,0.8) 0%,rgba(101, 147, 91,0.9) 20%,rgba(101, 147, 91,1) 53%,rgba(101, 147, 91,0.9) 79%,rgba(73, 107, 66,0.8) 100%)*/
+	background: white;
+	width: 100%;
+	height: 100%;
+	margin:0px;
+	padding: 0px;
+	
+}
+*{
+ 	
+	font-family: Verdana,sans-serif;
+}
+.refeicao label{
+	border-bottom: 1px gray solid;
+	display:block;
+	
+	height: 70px;
+	padding-top:10px;
+	padding-left: 50px;
+	/*#eceffa*/
+	/*background-image: linear-gradient(to bottom, rgba(46,166,102,1), rgba(28,128,78,1));*/
+	font-size: 36px;
+	color:white;
+	background-color: rgb(24,126,78);
+	text-decoration: bold;
+	font-family: Verdana;	
+}
+.refeicao label:hover{
+
+	font-weight: bold;
+}
+.refeicao div{
+
+	width:100%;
+	overflow: hidden;
+	max-height: 0px;
+	transition-duration: 0.4s;
+	transition: all linear;
+
+}
+
+.refeicao div table{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #f8f9fa;
+	border: 0.8px solid gray;
+	
+
+}
+.refeicao div table td,tr{	
+	margin:0px;
+
+	height:100%;
+	padding: 15px;
+	text-align: left;
+	text-decoration: bold;
+}
+
+.refeicao div table tr td h1{
+	text-align: center;
+	font-size:18px;
+}
+
+.refeicao div table td{
+	border: 0.8px solid gray;
+
+}
+
+.refeicao input{
+	display: none;
+}
+
+
+
+.refeicao input:checked ~div{
+	max-height:1000px;
+	transform: all;
+
+
+}
+.refeicao input:checked ~label{
+	font-weight: bold;
+	
+
+}
+.refeicao input:checked ~label:hover{
+	font-weight: normal;
+	
+
+}
+.teste input:checked ~.teste{
+	border-radius: 0px;
+}
+
+.nutricionista label{
+	border-bottom: 1px black solid;
+	display:block;
+	
+	height: 70px;
+	padding-top:10px;
+	padding-left: 50px;
+	/*#eceffa*/
+	/*background-image: linear-gradient(to bottom, rgba(46,166,102,0.9), rgba(28,128,78,1));*/
+	background-color: rgb(24,126,78);
+	font-size: 36px;
+	color:white;
+
+	text-decoration: bold;
+	font-family: Verdana;	
+}
+
+header ul{
+	text-align: center;
+	/*background-color:#eceffa;*/
+	background-color: rgb(24,126,78);
+	list-style: none;
+	border-top: 3px solid;
+	border-color:#44494f;
+}
+
+header ul li{
+	text-align: center;
+	margin: 0px;
+	display:inline;
+	
+}
+header ul li a{
+	margin: 0px;
+	padding: 32px 60px;
+	display: inline-block;
+	
+	text-decoration: none;
+	font-size: 18px;
+	/*color: #70a63d;*/ 
+	color:white;
+	font-family: Verdana,sans-serif;	
+	text-align: center;
+
+
+}
+header ul li h1{
+	color: #B1D249;
+	font-weight: bold;
+	margin: 0px;
+	padding: 20px 100px;
+	display: inline-block;
+	
+	text-decoration: none;
+	font-size: 24px;
+	/*color: #70a63d;*/ 
+	font-family: Verdana,sans-serif;	
+	text-align: center;
+}
+header ul li a:hover{
+	color:white;	
+	text-decoration-style: bold;
+	background:rgb(126,201,59);
+	text-decoration: none;
+}
+
+
+
